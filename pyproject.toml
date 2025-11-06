@@ -1,0 +1,10 @@
+[project]
+name = "arrow-generator-stream-repro"
+version = "0.1.0"
+description = "GeneratorStream reproducer"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas>=2.3.3",
+    "pyarrow~=22.0.0",
+]
