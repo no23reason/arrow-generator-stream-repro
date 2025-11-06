@@ -7,9 +7,9 @@ The code is the example server and client from https://github.com/apache/arrow/t
 slight changes to the server denoted by
 `# START DIFF` and `# END DIFF` comments:
 
-* definition of a simple iterator that returns table data (in real applications this iterator is a bit more involved of
+* definition of a [simple iterator](https://github.com/no23reason/arrow-generator-stream-repro/blob/main/server.py#L32-L42) that returns table data (in real applications this iterator is a bit more involved of
   course)
-* do_get now returns a GeneratorStream with this iterator
+* do_get now [returns](https://github.com/no23reason/arrow-generator-stream-repro/blob/main/server.py#L111-L112) a GeneratorStream with this iterator
 
 ## Repro steps
 
